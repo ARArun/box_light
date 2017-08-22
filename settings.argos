@@ -13,13 +13,9 @@
 
     <!-- *************** -->
     <!-- * Controllers * -->
-    <!-- *************** -->
+    <!-- ***************-->
     <controllers>
-        <lua_controller id="contr">
-            <actuators />
-            <sensors />
-            <params script="lua_controllers/hello_world_controller.lua" />
-        </lua_controller>
+        <!--COTROLLERS ARE MANDATORY EVEN IF THERE ARE NO ROBOTS-->
     </controllers>
 
     <!-- *********************** -->
