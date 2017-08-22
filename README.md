@@ -1,2 +1,2 @@
 # Setting lights
-## in desired orientation in argos
+## in desired orientation in argos boxes
