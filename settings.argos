@@ -36,6 +36,7 @@
             <led offset="0, 0.15,0"    anchor="origin" color="red"   />
             <led offset=" 0.15, 0,0"    anchor="origin" color="red"  />
             <led offset=" -0.15,0,0"    anchor="origin" color="red" />
+            <led offset=" -0.15,0.15,0"    anchor="origin" color="red" />
           </leds>
         </box>
 
