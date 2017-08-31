@@ -29,16 +29,15 @@
             <controller config="contr" />
         </foot-bot>
         -->
-        <box id="box1" size="0.1,0.1,0.1" movable="true" mass="2.5">
-          <body position="0,0,0" orientation="0,0,0" />
-          <leds medium="leds">
-            <led offset=" 0, -0.15,0" anchor="origin" color="red" />
-            <led offset="0, 0.15,0"    anchor="origin" color="red"   />
-            <led offset=" 0.15, 0,0"    anchor="origin" color="red"  />
-            <led offset=" -0.15,0,0"    anchor="origin" color="red" />
-          </leds>
-        </box>
+        <distribute>
+          <position method="uniform" min="-2,-2,0" max="2,2,0" />
+          <orientation method="uniform" min="0,0,0" max="0,0,0" />
+          <entity quantity="10" max_trials="100">
+              <box id="box1" size="0.1,0.1,0.1" movable="true" mass="2.5">
 
+              </box>
+          </entity>
+        </distribute>
     </arena>
 
     <!-- ******************* -->
